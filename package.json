@@ -31,6 +31,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
     "@testing-library/jest-dom": "^4.0.0",
     "@testing-library/react": "^8.0.4",
     "@testing-library/react-hooks": "^1.1.0",
@@ -39,7 +41,7 @@
     "jest-websocket-mock": "^1.5.0",
     "mock-socket": "^8.0.5",
     "prop-types": "^15.7.2",
-    "react-test-renderer": "^16.9.0",
+    "react-test-renderer": "^16.14.0",
     "sass": "^1.53.0"
   },
   "proxy": "http://localhost:8001",
