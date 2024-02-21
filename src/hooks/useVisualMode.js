@@ -1,8 +1,8 @@
-import { func } from "prop-types";
+// import { func } from "prop-types";
 import { useState } from "react";
 
 export function useVisualMode(initial) {
-  const [mode, setMode] = useState(initial);
+  // const [mode, setMode] = useState(initial);
   const [history, setHistory] = useState([initial]);
 
   //UpdateMode handler
