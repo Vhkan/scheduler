@@ -75,13 +75,7 @@ describe("Application", () => {
     const day = getAllByTestId(container, "day").find((day) =>
       queryByText(day, "Monday")
     );
-    //console.log("Day container is:", day);
-
     expect(getByText(day, "no spots remaining")).toBeInTheDocument();
-
-    // console.log("Container is:", prettyDOM(container));
-    // console.log("Appointments container is:", prettyDOM(appointments));
-    //console.log("Single appointment is:", prettyDOM(appointment));
   });
 
   it("loads data, cancels an interview and increases the spots remaining for Monday by 1", async () => {
@@ -200,8 +194,6 @@ describe("Application", () => {
     fireEvent.click(queryByText(appointment, "Confirm"));
 
     await waitForElement(() => queryByText(appointment, "Deleting"));
-
-    //await waitForElement(() => getByText(appointment, "Error"));  
 
     const day = getAllByTestId(container, "day").find((day) => queryByText(day, "Monday"));
     
