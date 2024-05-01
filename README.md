@@ -18,6 +18,6 @@ npm test
 ```
 
 ### Final Product
-![Home](https://github.com/Vhkan/scheduler/blob/main/documents/home-page.png")
+![Home](https://github.com/Vhkan/scheduler/blob/main/documents/home-page.png "Home")
 ![Schedule_interview](https://github.com/Vhkan/scheduler/blob/main/documents/scheduling_interview.png "Schedule_interview")
 ![Cancel_interview](https://github.com/Vhkan/scheduler/blob/main/documents/cancel_interview.png "Cancel_interview")
